@@ -1,0 +1,5375 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="OgreKitCore"
+	ProjectGUID="{E18B3FA0-D332-48B1-96AD-81DD50B97C04}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="OgreKitCore.dir\Debug"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="1"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;STATIC_LINKED;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Platform\msvs2008\Engine\Debug/OgreKitCore.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;STATIC_LINKED;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Platform\msvs2008\Engine\Debug\OgreKitCore.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="OgreKitCore.dir\Release"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;STATIC_LINKED;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Platform\msvs2008\Engine\Release/OgreKitCore.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;STATIC_LINKED;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Platform\msvs2008\Engine\Release\OgreKitCore.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="OgreKitCore.dir\MinSizeRel"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;STATIC_LINKED;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Platform\msvs2008\Engine\MinSizeRel/OgreKitCore.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;STATIC_LINKED;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Platform\msvs2008\Engine\MinSizeRel\OgreKitCore.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="OgreKitCore.dir\RelWithDebInfo"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;STATIC_LINKED;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Platform\msvs2008\Engine\RelWithDebInfo/OgreKitCore.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;STATIC_LINKED;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Engine\.;F:\dvx\gamekit\Engine\.\AI;F:\dvx\gamekit\Engine\.\Animation;F:\dvx\gamekit\Engine\.\Constraints;F:\dvx\gamekit\Engine\.\LogicBricks;F:\dvx\gamekit\Engine\.\Logic;F:\dvx\gamekit\Engine\.\Script;F:\dvx\gamekit\Engine\.\Script\Api;F:\dvx\gamekit\Engine\.\Sound;F:\dvx\gamekit\Engine\.\Loaders\Blender2;F:\dvx\gamekit\Engine\.\Physics;F:\dvx\gamekit\Engine\.\Thread;F:\dvx\gamekit\Engine\.\Particles;F:\dvx\gamekit\Engine\.\Graphics;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\GLSL\include;F:\dvx\gamekit\Ogre-1.8rc\RenderSystems\GL\src\atifs\include;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Platform\msvs2008\Engine\RelWithDebInfo\OgreKitCore.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Engine/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Engine\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Engine\CMakeLists.txt;F:\dvx\gamekit\Engine\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Engine\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Engine/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Engine\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Engine\CMakeLists.txt;F:\dvx\gamekit\Engine\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Engine\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Engine/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Engine\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Engine\CMakeLists.txt;F:\dvx\gamekit\Engine\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Engine\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Engine/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Engine\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Engine\CMakeLists.txt;F:\dvx\gamekit\Engine\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Engine\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\Bin\OgreKitCore\compile_OgreKitCore_0.cpp">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\Bin\OgreKitCore\compile_OgreKitCore_1.cpp">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\Bin\OgreKitCore\compile_OgreKitCore_2.cpp">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\Bin\OgreKitCore\compile_OgreKitCore_3.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Core"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkBone.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkCamera.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkCam2ViewportRay.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkCommon.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkCoreApplication.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkDebugFps.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkDebugger.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkDebugProperty.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkDebugScreen.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkEngine.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkEntity.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkFont.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkFontManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkGameObject.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkGameObjectManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkGameObjectGroup.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkGameObjectInstance.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkGroupManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkInstancedManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkInstancedObject.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkHashedString.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkInput.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkLight.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkLogger.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkMesh.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkMeshManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkMessageManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkMathUtils.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkMemoryTest.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkPath.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkTextFile.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkTickState.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkTextManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkRenderFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkResource.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkResourceName.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkResourceManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkResourceGroupManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkScene.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkSceneManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkSerialize.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkSkeleton.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkSkeletonManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkSkeletonResource.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkStats.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkString.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkTransformState.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkUserDefs.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkUtils.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkValue.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkVariable.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkWindowSystem.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkWindow.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkViewport.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Platform\msvs2008\Engine\gkSettings.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\OgreKit.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkBone.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkCamera.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkCam2ViewportRay.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkCoreApplication.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkDebugFps.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkDebugger.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkDebugProperty.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkDebugScreen.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkEngine.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkEntity.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkFont.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkFontManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkGameObject.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkGameObjectManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkGameObjectGroup.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkGameObjectInstance.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkGroupManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkInstancedManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkInstancedObject.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkLight.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkLogger.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkMesh.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkMeshManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkMessageManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkMathUtils.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkPath.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkTextFile.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkTickState.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkTextManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkRenderFactory.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkResource.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkResourceManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkResourceGroupManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkScene.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkSceneManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkSkeleton.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkSkeletonManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkSkeletonResource.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkStats.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkUserDefs.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkUtils.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkWindow.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkViewport.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkVariable.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\gkWindowSystem.cpp">
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="AI"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\AI\gkMeshData.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\AI\gkNavMeshData.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\AI\gkSteering.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\AI\gkFSM.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\AI\gkNavMeshData.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\AI\gkSteering.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\AI\gkFSM.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="Thread"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkAsyncResult.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkActiveObject.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkCriticalSection.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkNonCopyable.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkPtrRef.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkQueue.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkSyncObj.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkThread.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkActiveObject.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkCriticalSection.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkPtrRef.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkThread.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Thread\gkSyncObj.cpp">
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="Animation"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Animation\gkAnimation.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Animation\gkAnimationDefs.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Animation\gkAnimationManager.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Animation\gkAnimation.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Animation\gkAnimationManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="Particles"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\gkParticleObject.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\gkParticleResource.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\gkParticleManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\Ogre\gkOgreParticleObject.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\Ogre\gkOgreParticleResource.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\Ogre\gkOgreParticleAffector.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\Ogre\gkOgreParticleEmitter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\Ogre\gkOgreParticleRenderer.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\gkParticleObject.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\gkParticleResource.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\gkParticleManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\Ogre\gkOgreParticleObject.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\Ogre\gkOgreParticleResource.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\Ogre\gkOgreParticleAffector.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\Ogre\gkOgreParticleEmitter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Particles\Ogre\gkOgreParticleRenderer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="LogicBricks"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkActionActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkActuatorSensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkAlwaysSensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkCollisionSensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkDelaySensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkEditObjectActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkExpressionController.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkGameActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkJoystickSensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkKeyboardSensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicBrick.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicController.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicDispatcher.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicLink.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicOpController.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicSensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkMotionActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkMouseSensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkMessageActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkMessageSensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkNearSensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkParentActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkRadarSensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkRandomActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkRandomSensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkRaySensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkSceneActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkScriptController.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkStateActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkVisibilityActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkPropertySensor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkPropertyActuator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkSoundActuator.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkActionActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkActuatorSensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkAlwaysSensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkCollisionSensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkDelaySensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkEditObjectActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkExpressionController.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkGameActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkJoystickSensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkKeyboardSensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicBrick.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicController.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicDispatcher.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicLink.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicOpController.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkLogicSensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkMotionActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkMouseSensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkMessageActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkMessageSensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkNearSensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkParentActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkRadarSensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkRandomActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkRandomSensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkRaySensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkSceneActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkScriptController.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkStateActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkVisibilityActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkPropertySensor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkPropertyActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\LogicBricks\gkSoundActuator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="Blender"
+			Filter="">
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkBlendFile.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkBlendInternalFile.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkBlendLoader.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkTextureLoader.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkBlenderSceneConverter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkAnimationConverter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkLogicBrickConverter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkMeshConverter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkSkeletonConverter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkMeshConverter26.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkParticleConverter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkBlendFile.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkBlendInternalFile.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkBlendLoader.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkLoaderCommon.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkBlenderDefines.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkTextureLoader.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\gkBlenderSceneConverter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkAnimationConverter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkLogicBrickConverter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkMeshConverter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkSkeletonConverter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkMeshConverter26.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Loaders\Blender2\Converters\gkParticleConverter.h">
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="Constraints"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Constraints\gkConstraint.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Constraints\gkConstraintManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Constraints\gkLimitLocConstraint.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Constraints\gkLimitRotConstraint.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Constraints\gkLimitVelocityConstraint.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Constraints\gkConstraint.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Constraints\gkConstraintManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Constraints\gkLimitLocConstraint.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Constraints\gkLimitRotConstraint.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Constraints\gkLimitVelocityConstraint.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="Physics"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkCharacter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkContactTest.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkDbvt.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkDynamicsWorld.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkPhysicsController.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkPhysicsDebug.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkRagDoll.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkRayTest.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkRigidBody.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkSoftBody.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkSweptTest.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkVehicle.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkGhost.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkCharacter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkDbvt.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkDynamicsWorld.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkPhysicsController.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkPhysicsDebug.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkRagDoll.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkRayTest.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkRigidBody.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkSoftBody.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkSweptTest.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkVehicle.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Physics\gkGhost.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="Script"
+			Filter="">
+		<Filter
+			Name="Builtin"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\System.lua">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\Class.lua">
+			</File>
+		</Filter>
+		<Filter
+			Name="Include"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\OgreKit.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsTypes.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsTypeConverters.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsAI.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsAnimation.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsBricks.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsConstraints.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsCore.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsMacros.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsMath.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsNetwork.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsNodes.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsParticles.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsPhysics.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsScript.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsSound.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsThread.i">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsUtils.i">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\Generated\gsTemplates.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Lua\gkLuaManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Lua\gkLuaScript.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Lua\gkLuaUtils.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsAI.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsAnimation.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsBricks.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsCommon.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsConstraints.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsCore.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsMath.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsNetwork.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsNodes.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsParticles.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsPhysics.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsScript.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsSound.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsThread.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsUtils.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Lua\gkLuaManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Lua\gkLuaScript.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Lua\gkLuaUtils.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsAI.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsAnimation.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsBricks.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsConstraints.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsCore.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsMath.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsNetwork.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsNodes.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsParticles.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsPhysics.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsScript.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsSound.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsThread.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\gsUtils.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Script\Api\Generated\OgreKitLua.cpp">
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="Sound"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkBuffer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkSource.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkOgg.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkSound.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkSoundManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkSoundStream.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkSoundUtil.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkStreamer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkWaveform.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkBuffer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkOgg.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkSource.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkSound.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkSoundManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkSoundStream.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkSoundUtil.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkStreamer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Sound\gkWaveform.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="Network"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Network\gkNetworkManager.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Network\gkNetworkManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="Graphics"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Graphics\gkHUD.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Graphics\gkHUDElement.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Graphics\gkHUDManager.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Graphics\gkHUD.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Graphics\gkHUDElement.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\Graphics\gkHUDManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="External"
+			Filter="">
+		<Filter
+			Name="Header"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\External\Ogre\gkOgreMaterialLoader.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\External\Ogre\gkOgreMeshLoader.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\External\Ogre\gkOgreSkeletonLoader.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\External\Ogre\gkOgreSkyBoxGradient.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\External\Ogre\gkOgreBlendArchive.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Source"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\External\Ogre\gkOgreMaterialLoader.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\External\Ogre\gkOgreMeshLoader.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\External\Ogre\gkOgreSkeletonLoader.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\External\Ogre\gkOgreSkyBoxGradient.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Engine\External\Ogre\gkOgreBlendArchive.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="DependenciesCMakeLists"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Dependencies\CMakeLists.txt">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

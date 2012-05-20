@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+F:/dvx/gamekit/Ogre-1.8rc/CMakeLists.txt
+F:/dvx/gamekit/CMake/Utils/PrecompiledHeader.cmake
+F:/dvx/gamekit/CMake/Utils/OgreGetVersion.cmake
+F:/dvx/gamekit/CMake/Utils/PreprocessorUtils.cmake
+F:/dvx/gamekit/Ogre-1.8rc/Settings/OgreBuildSettings.h.in

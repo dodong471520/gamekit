@@ -1,0 +1,6355 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="OgreMain"
+	ProjectGUID="{E25C700E-DE71-4882-8B7E-70E467F17899}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="OgreMain.dir\Debug"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="1"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;OGRE_NONCLIENT_BUILD;FREEIMAGE_LIB;_MT;_USRDLL;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\Debug/OgreMainStatic.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;OGRE_NONCLIENT_BUILD;FREEIMAGE_LIB;_MT;_USRDLL;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\Debug\OgreMainStatic.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="OgreMain.dir\Release"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;OGRE_NONCLIENT_BUILD;FREEIMAGE_LIB;_MT;_USRDLL;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\Release/OgreMainStatic.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;OGRE_NONCLIENT_BUILD;FREEIMAGE_LIB;_MT;_USRDLL;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\Release\OgreMainStatic.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="OgreMain.dir\MinSizeRel"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;OGRE_NONCLIENT_BUILD;FREEIMAGE_LIB;_MT;_USRDLL;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\MinSizeRel/OgreMainStatic.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;OGRE_NONCLIENT_BUILD;FREEIMAGE_LIB;_MT;_USRDLL;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\MinSizeRel\OgreMainStatic.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="OgreMain.dir\RelWithDebInfo"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;OGRE_NONCLIENT_BUILD;FREEIMAGE_LIB;_MT;_USRDLL;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\RelWithDebInfo/OgreMainStatic.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;OGRE_NONCLIENT_BUILD;FREEIMAGE_LIB;_MT;_USRDLL;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\nedmalloc;F:\dvx\gamekit\Ogre-1.8rc\OgreMain;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\RelWithDebInfo\OgreMainStatic.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\ogremain.map">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Ogre-1.8rc/OgreMain/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\OgreMain\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\CMakeLists.txt;F:\dvx\gamekit\CMake\Utils\PrecompiledHeader.cmake;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcproj.user.in;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcxproj.user.in;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\OgreMain\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Ogre-1.8rc/OgreMain/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\OgreMain\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\CMakeLists.txt;F:\dvx\gamekit\CMake\Utils\PrecompiledHeader.cmake;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcproj.user.in;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcxproj.user.in;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\OgreMain\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Ogre-1.8rc/OgreMain/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\OgreMain\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\CMakeLists.txt;F:\dvx\gamekit\CMake\Utils\PrecompiledHeader.cmake;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcproj.user.in;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcxproj.user.in;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\OgreMain\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Ogre-1.8rc/OgreMain/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\OgreMain\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\CMakeLists.txt;F:\dvx\gamekit\CMake\Utils\PrecompiledHeader.cmake;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcproj.user.in;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcxproj.user.in;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\OgreMain\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreAlignedAllocator.cpp">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreAnimable.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreAnimation.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreAnimationState.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreAnimationTrack.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreArchiveManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreAutoParamDataSource.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreAxisAlignedBox.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreBillboard.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreBillboardChain.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreBillboardParticleRenderer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreBillboardSet.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreBone.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreBorderPanelOverlayElement.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreCamera.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreCodec.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreColourValue.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreCommon.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreCompositionPass.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreCompositionTargetPass.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreCompositionTechnique.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreCompositor.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreCompositorChain.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreCompositorInstance.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreCompositorManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreConfigFile.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreControllerManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreConvexBody.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreDataStream.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreDefaultHardwareBufferManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreDefaultSceneQueries.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreDeflate.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreDepthBuffer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreDistanceLodStrategy.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreDualQuaternion.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreDynLib.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreDynLibManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreEdgeListBuilder.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreEntity.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreException.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreExternalTextureSource.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreExternalTextureSourceManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreFileSystem.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreFont.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreFontManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreFrustum.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreGpuProgram.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreGpuProgramManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreGpuProgramParams.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreGpuProgramUsage.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreHardwareBufferManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreHardwareIndexBuffer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreHardwareOcclusionQuery.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreHardwarePixelBuffer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreHardwareVertexBuffer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreHighLevelGpuProgram.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreHighLevelGpuProgramManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreImage.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreInstanceBatch.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreInstanceBatchHW.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreInstanceBatchHW_VTF.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreInstanceBatchShader.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreInstanceBatchVTF.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreInstancedGeometry.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreInstancedEntity.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreInstanceManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreKeyFrame.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreLight.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreLodStrategy.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreLodStrategyManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreLog.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreLogManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreManualObject.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMaterial.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMaterialManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMaterialSerializer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMath.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMatrix3.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMatrix4.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMemoryAllocatedObject.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMemoryNedAlloc.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMemoryNedPooling.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMemoryTracker.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMesh.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMeshManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMeshSerializer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMeshSerializerImpl.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMovableObject.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreMovablePlane.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreNode.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreNumerics.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreOptimisedUtil.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreOptimisedUtilGeneral.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreOptimisedUtilSSE.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreOverlay.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreOverlayContainer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreOverlayElement.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreOverlayElementCommands.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreOverlayElementFactory.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreOverlayManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePanelOverlayElement.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreParticle.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreParticleEmitter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreParticleEmitterCommands.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreParticleIterator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreParticleSystem.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreParticleSystemManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePass.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePatchMesh.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePatchSurface.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePixelCountLodStrategy.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePixelFormat.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePlane.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePlatformInformation.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePolygon.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePose.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePrecompiledHeaders.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePredefinedControllers.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePrefabFactory.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreProfiler.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreProgressiveMesh.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreQuaternion.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRectangle2D.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRenderQueue.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRenderQueueInvocation.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRenderQueueSortingGrouping.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRenderSystem.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRenderSystemCapabilities.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRenderSystemCapabilitiesManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRenderSystemCapabilitiesSerializer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRenderTarget.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRenderTexture.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRenderToVertexBuffer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRenderWindow.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreResource.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreResourceBackgroundQueue.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreResourceGroupManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreResourceManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRibbonTrail.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRoot.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreRotationSpline.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSceneManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSceneManagerEnumerator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSceneNode.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSceneQuery.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreScriptCompiler.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreScriptLexer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreScriptParser.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreScriptTranslator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSerializer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreShadowCameraSetup.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreShadowCameraSetupFocused.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreShadowCameraSetupLiSPSM.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreShadowCameraSetupPlaneOptimal.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreShadowCameraSetupPSSM.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreShadowCaster.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreShadowTextureManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreShadowVolumeExtrudeProgram.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSimpleRenderable.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSimpleSpline.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSkeleton.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSkeletonInstance.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSkeletonManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSkeletonSerializer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSmallVector.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreStaticGeometry.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreStreamSerialiser.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreString.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreStringConverter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreStringInterface.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSubEntity.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSubMesh.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreTagPoint.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreTangentSpaceCalc.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreTechnique.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreTextAreaOverlayElement.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreTexture.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreTextureManager.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreTextureUnitState.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreUnifiedHighLevelGpuProgram.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreUserObjectBindings.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreUTFString.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreVector2.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreVector3.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreVector4.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreVertexIndexData.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreViewport.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreWindowEventUtilities.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreWireBoundingBox.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreWorkQueue.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreFreeImageCodec.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreDDSCodec.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\WIN32\OgreConfigDialog.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\WIN32\OgreErrorDialog.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\WIN32\OgreTimer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\Threading\OgreDefaultWorkQueueStandard.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Platform\msvs2008\OgreMain\compile_OgreMain_0.cpp">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Platform\msvs2008\OgreMain\compile_OgreMain_1.cpp">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Platform\msvs2008\OgreMain\compile_OgreMain_2.cpp">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Platform\msvs2008\OgreMain\compile_OgreMain_3.cpp">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Platform\msvs2008\OgreMain\compile_OgreMain_4.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\asm_math.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\Ogre.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreAlignedAllocator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreAnimable.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreAnimation.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreAnimationState.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreAnimationTrack.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreAny.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreArchive.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreArchiveFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreArchiveManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreAtomicWrappers.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreAutoParamDataSource.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreAxisAlignedBox.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreBillboard.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreBillboardChain.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreBillboardParticleRenderer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreBillboardSet.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreBitwise.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreBlendMode.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreBone.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreBorderPanelOverlayElement.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Platform\msvs2008\include\OgreBuildSettings.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCamera.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCodec.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreColourValue.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCommon.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCompositionPass.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCompositionTargetPass.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCompositionTechnique.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCompositor.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCompositorChain.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCompositorLogic.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCompositorInstance.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCompositorManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreConfig.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreConfigDialog.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreConfigFile.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreConfigOptionMap.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreController.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreControllerManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreConvexBody.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreCustomCompositionPass.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreDataStream.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreDefaultHardwareBufferManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreDeflate.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreDepthBuffer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreDistanceLodStrategy.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreDualQuaternion.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreDynLib.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreDynLibManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreEdgeListBuilder.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreEntity.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreErrorDialog.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreException.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreExternalTextureSource.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreExternalTextureSourceManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreFactoryObj.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreFileSystem.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreFont.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreFontManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreFrameListener.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreFrustum.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreGpuProgram.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreGpuProgramManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreGpuProgramParams.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreGpuProgramUsage.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreHardwareBuffer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreHardwareBufferManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreHardwareIndexBuffer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreHardwareOcclusionQuery.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreHardwarePixelBuffer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreHardwareVertexBuffer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreHeaderPrefix.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreHeaderSuffix.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreHighLevelGpuProgram.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreHighLevelGpuProgramManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreImage.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreImageCodec.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreInstanceBatch.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreInstanceBatchHW.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreInstanceBatchHW_VTF.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreInstanceBatchShader.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreInstanceBatchVTF.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreInstancedGeometry.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreInstancedEntity.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreInstanceManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreIteratorRange.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreIteratorWrapper.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreIteratorWrappers.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreKeyFrame.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreLight.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreLodListener.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreLodStrategy.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreLodStrategyManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreLog.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreLogManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreManualObject.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMaterial.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMaterialManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMaterialSerializer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMath.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMatrix3.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMatrix4.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMemoryAllocatedObject.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMemoryAllocatorConfig.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMemoryNedAlloc.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMemoryNedPooling.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMemoryStdAlloc.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMemorySTLAllocator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMemoryTracker.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMesh.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMeshFileFormat.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMeshManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMeshSerializer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMeshSerializerImpl.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMovableObject.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreMovablePlane.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreNode.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreNumerics.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreOptimisedUtil.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreOverlay.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreOverlayContainer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreOverlayElement.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreOverlayElementCommands.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreOverlayElementFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreOverlayManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePanelOverlayElement.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreParticle.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreParticleAffector.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreParticleAffectorFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreParticleEmitter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreParticleEmitterCommands.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreParticleEmitterFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreParticleIterator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreParticleScriptCompiler.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreParticleSystem.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreParticleSystemManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreParticleSystemRenderer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePass.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePatchMesh.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePatchSurface.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePixelCountLodStrategy.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePixelFormat.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePlane.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePlaneBoundedVolume.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePlatform.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePlatformInformation.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePlugin.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePolygon.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePose.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePredefinedControllers.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePrefabFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgrePrerequisites.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreProfiler.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreProgressiveMesh.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreQuaternion.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRadixSort.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRay.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRectangle.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRectangle2D.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderable.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderObjectListener.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderOperation.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderQueue.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderQueueInvocation.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderQueueListener.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderQueueSortingGrouping.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderSystem.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderSystemCapabilities.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderSystemCapabilitiesManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderSystemCapabilitiesSerializer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderTarget.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderTargetListener.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderTexture.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderToVertexBuffer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRenderWindow.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreResource.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreResourceBackgroundQueue.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreResourceGroupManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreResourceManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRibbonTrail.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRoot.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreRotationalSpline.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSceneManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSceneManagerEnumerator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSceneNode.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSceneQuery.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreScriptCompiler.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreScriptLexer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreScriptLoader.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreScriptParser.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreScriptTranslator.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSearchOps.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSerializer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreShadowCameraSetup.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreShadowCameraSetupFocused.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreShadowCameraSetupLiSPSM.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreShadowCameraSetupPlaneOptimal.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreShadowCameraSetupPSSM.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreShadowCaster.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreShadowTextureManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreShadowVolumeExtrudeProgram.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSharedPtr.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSimpleRenderable.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSimpleSpline.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSingleton.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSkeleton.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSkeletonFileFormat.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSkeletonInstance.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSkeletonManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSkeletonSerializer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSmallVector.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSphere.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSpotShadowFadePng.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreStableHeaders.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreStaticFaceGroup.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreStaticGeometry.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreStdHeaders.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreStreamSerialiser.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreString.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreStringConverter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreStringInterface.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreStringVector.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSubEntity.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreSubMesh.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreTagPoint.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreTangentSpaceCalc.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreTechnique.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreTextAreaOverlayElement.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreTexture.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreTextureManager.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreTextureUnitState.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreTimer.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreUnifiedHighLevelGpuProgram.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreUserObjectBindings.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreUTFString.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreVector2.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreVector3.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreVector4.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreVertexBoneAssignment.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreVertexIndexData.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreViewport.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreWindowEventUtilities.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreWireBoundingBox.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreWorkQueue.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreFreeImageCodec.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\OgreDDSCodec.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreImageResampler.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgrePixelConversions.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\OgreSIMDHelper.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32\OgreConfigDialogImp.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32\OgreErrorDialogImp.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32\OgreTimerImp.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32\OgreMinGWSupport.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\Threading\OgreThreadDefines.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\Threading\OgreThreadHeaders.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\Threading\OgreDefaultWorkQueue.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\Threading\OgreThreadDefinesNone.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\Threading\OgreDefaultWorkQueueStandard.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resources"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\WIN32\resource.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\WIN32\winres.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\OgreMain\src\WIN32\OgreWin32Resources.rc">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

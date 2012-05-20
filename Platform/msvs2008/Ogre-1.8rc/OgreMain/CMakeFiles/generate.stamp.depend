@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+F:/dvx/gamekit/Ogre-1.8rc/OgreMain/CMakeLists.txt
+F:/dvx/gamekit/CMake/Utils/PrecompiledHeader.cmake
+F:/dvx/gamekit/CMake/Templates/VisualStudioUserFile.vcproj.user.in
+F:/dvx/gamekit/CMake/Templates/VisualStudioUserFile.vcxproj.user.in

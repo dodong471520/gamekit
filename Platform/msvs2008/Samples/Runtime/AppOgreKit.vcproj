@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="AppOgreKit"
+	ProjectGUID="{61EAFFFF-F6DA-4E5F-8A81-351DABC8DCDA}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="AppOgreKit.dir\Debug"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="1"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\Debug/AppOgreKit.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -E copy_if_different F:/dvx/gamekit/Samples/Runtime/momo_ogre.blend F:/dvx/gamekit/Platform/msvs2008/Samples/Runtime/momo_ogre.blend&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\Engine\Debug\OgreKitCore.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\Debug\OgreMainStatic.lib ..\..\Dependencies\Source\FreeImage\Debug\FreeImage.lib ..\..\Dependencies\Source\FreeType\Debug\freetype.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\Debug\RenderSystem_GLStatic.lib ..\..\Dependencies\Source\GameKit\Utils\Debug\GameKitUtils.lib ..\..\Dependencies\Source\OIS\Debug\OIS.lib ..\..\Dependencies\Source\FreeImage\ZLib\Debug\ZLib.lib ..\..\Dependencies\Source\GameKit\AnimKit\Debug\AnimKit.lib ..\..\FileTools\File\Debug\fbtFile.lib ..\..\FileTools\FileFormats\Blend\Debug\bfBlend.lib ..\..\Dependencies\Source\OpenAL\Debug\OpenAL.lib ..\..\Dependencies\Source\Codecs\Debug\OggVorbis.lib ..\..\Dependencies\Source\Lua\lua\Debug\Lua.lib ..\..\Dependencies\Source\FreeImage\ZLib\Debug\ZLib.lib ..\..\bullet\src\BulletDynamics\Debug\BulletDynamics.lib ..\..\bullet\src\BulletCollision\Debug\BulletCollision.lib ..\..\bullet\src\LinearMath\Debug\LinearMath.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\Debug\Plugin_ParticleFXStatic.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\Debug\OgreMainStatic.lib opengl32.lib glu32.lib "
+				OutputFile="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\Debug\AppOgreKit.exe"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\Debug/AppOgreKit.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\Debug\AppOgreKit.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="AppOgreKit.dir\Release"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\Release/AppOgreKit.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -E copy_if_different F:/dvx/gamekit/Samples/Runtime/momo_ogre.blend F:/dvx/gamekit/Platform/msvs2008/Samples/Runtime/momo_ogre.blend&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\Engine\Release\OgreKitCore.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\Release\OgreMainStatic.lib ..\..\Dependencies\Source\FreeImage\Release\FreeImage.lib ..\..\Dependencies\Source\FreeType\Release\freetype.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\Release\RenderSystem_GLStatic.lib ..\..\Dependencies\Source\GameKit\Utils\Release\GameKitUtils.lib ..\..\Dependencies\Source\OIS\Release\OIS.lib ..\..\Dependencies\Source\FreeImage\ZLib\Release\ZLib.lib ..\..\Dependencies\Source\GameKit\AnimKit\Release\AnimKit.lib ..\..\FileTools\File\Release\fbtFile.lib ..\..\FileTools\FileFormats\Blend\Release\bfBlend.lib ..\..\Dependencies\Source\OpenAL\Release\OpenAL.lib ..\..\Dependencies\Source\Codecs\Release\OggVorbis.lib ..\..\Dependencies\Source\Lua\lua\Release\Lua.lib ..\..\Dependencies\Source\FreeImage\ZLib\Release\ZLib.lib ..\..\bullet\src\BulletDynamics\Release\BulletDynamics.lib ..\..\bullet\src\BulletCollision\Release\BulletCollision.lib ..\..\bullet\src\LinearMath\Release\LinearMath.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\Release\Plugin_ParticleFXStatic.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\Release\OgreMainStatic.lib opengl32.lib glu32.lib "
+				OutputFile="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\Release\AppOgreKit.exe"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\Release/AppOgreKit.pdb"
+				SubSystem="1"
+				ImportLibrary="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\Release\AppOgreKit.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="AppOgreKit.dir\MinSizeRel"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\MinSizeRel/AppOgreKit.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -E copy_if_different F:/dvx/gamekit/Samples/Runtime/momo_ogre.blend F:/dvx/gamekit/Platform/msvs2008/Samples/Runtime/momo_ogre.blend&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\Engine\MinSizeRel\OgreKitCore.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\MinSizeRel\OgreMainStatic.lib ..\..\Dependencies\Source\FreeImage\MinSizeRel\FreeImage.lib ..\..\Dependencies\Source\FreeType\MinSizeRel\freetype.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\MinSizeRel\RenderSystem_GLStatic.lib ..\..\Dependencies\Source\GameKit\Utils\MinSizeRel\GameKitUtils.lib ..\..\Dependencies\Source\OIS\MinSizeRel\OIS.lib ..\..\Dependencies\Source\FreeImage\ZLib\MinSizeRel\ZLib.lib ..\..\Dependencies\Source\GameKit\AnimKit\MinSizeRel\AnimKit.lib ..\..\FileTools\File\MinSizeRel\fbtFile.lib ..\..\FileTools\FileFormats\Blend\MinSizeRel\bfBlend.lib ..\..\Dependencies\Source\OpenAL\MinSizeRel\OpenAL.lib ..\..\Dependencies\Source\Codecs\MinSizeRel\OggVorbis.lib ..\..\Dependencies\Source\Lua\lua\MinSizeRel\Lua.lib ..\..\Dependencies\Source\FreeImage\ZLib\MinSizeRel\ZLib.lib ..\..\bullet\src\BulletDynamics\MinSizeRel\BulletDynamics.lib ..\..\bullet\src\BulletCollision\MinSizeRel\BulletCollision.lib ..\..\bullet\src\LinearMath\MinSizeRel\LinearMath.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\MinSizeRel\Plugin_ParticleFXStatic.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\MinSizeRel\OgreMainStatic.lib opengl32.lib glu32.lib "
+				OutputFile="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\MinSizeRel\AppOgreKit.exe"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\MinSizeRel/AppOgreKit.pdb"
+				SubSystem="1"
+				ImportLibrary="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\MinSizeRel\AppOgreKit.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="AppOgreKit.dir\RelWithDebInfo"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\RelWithDebInfo/AppOgreKit.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include\WIN32;F:\dvx\gamekit\Engine\AI;F:\dvx\gamekit\bullet\src;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Dependencies\Source\OIS\include;F:\dvx\gamekit\Dependencies\Source\GameKit\Utils;F:\dvx\gamekit\Dependencies\Source\GameKit\AnimKit;F:\dvx\gamekit\Tools\FileTools\File;F:\dvx\gamekit\Tools\FileTools\FileFormats\Blend;F:\dvx\gamekit\Dependencies\Source\OpenAL;F:\dvx\gamekit\Dependencies\Source\Codecs\include;F:\dvx\gamekit\Dependencies\Source\Lua\lua;F:\dvx\gamekit\Samples\Runtime\..\..\Dependencies\Source\tclap\include;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -E copy_if_different F:/dvx/gamekit/Samples/Runtime/momo_ogre.blend F:/dvx/gamekit/Platform/msvs2008/Samples/Runtime/momo_ogre.blend&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\Engine\RelWithDebInfo\OgreKitCore.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\RelWithDebInfo\OgreMainStatic.lib ..\..\Dependencies\Source\FreeImage\RelWithDebInfo\FreeImage.lib ..\..\Dependencies\Source\FreeType\RelWithDebInfo\freetype.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\RelWithDebInfo\RenderSystem_GLStatic.lib ..\..\Dependencies\Source\GameKit\Utils\RelWithDebInfo\GameKitUtils.lib ..\..\Dependencies\Source\OIS\RelWithDebInfo\OIS.lib ..\..\Dependencies\Source\FreeImage\ZLib\RelWithDebInfo\ZLib.lib ..\..\Dependencies\Source\GameKit\AnimKit\RelWithDebInfo\AnimKit.lib ..\..\FileTools\File\RelWithDebInfo\fbtFile.lib ..\..\FileTools\FileFormats\Blend\RelWithDebInfo\bfBlend.lib ..\..\Dependencies\Source\OpenAL\RelWithDebInfo\OpenAL.lib ..\..\Dependencies\Source\Codecs\RelWithDebInfo\OggVorbis.lib ..\..\Dependencies\Source\Lua\lua\RelWithDebInfo\Lua.lib ..\..\Dependencies\Source\FreeImage\ZLib\RelWithDebInfo\ZLib.lib ..\..\bullet\src\BulletDynamics\RelWithDebInfo\BulletDynamics.lib ..\..\bullet\src\BulletCollision\RelWithDebInfo\BulletCollision.lib ..\..\bullet\src\LinearMath\RelWithDebInfo\LinearMath.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\RelWithDebInfo\Plugin_ParticleFXStatic.lib ..\..\..\..\Ogre-1.8rc\Bin\lib\RelWithDebInfo\OgreMainStatic.lib opengl32.lib glu32.lib "
+				OutputFile="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\RelWithDebInfo\AppOgreKit.exe"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\RelWithDebInfo/AppOgreKit.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\RelWithDebInfo\AppOgreKit.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="F:\dvx\gamekit\Samples\Runtime\momo_ogre.blend">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Samples\Runtime\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Samples/Runtime/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Samples\Runtime\CMakeLists.txt;F:\dvx\gamekit\Samples\Runtime\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Samples/Runtime/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Samples\Runtime\CMakeLists.txt;F:\dvx\gamekit\Samples\Runtime\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Samples/Runtime/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Samples\Runtime\CMakeLists.txt;F:\dvx\gamekit\Samples\Runtime\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Samples/Runtime/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Samples\Runtime\CMakeLists.txt;F:\dvx\gamekit\Samples\Runtime\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Samples\Runtime\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Samples\Runtime\Main.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="ParentCMakeLists"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Samples\CMakeLists.txt">
+			</File>
+		</Filter>
+		<Filter
+			Name="Content"
+			Filter="">
+		<Filter
+			Name="Resources"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Samples\Runtime\Win32\app.rc">
+			</File>
+		</Filter>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

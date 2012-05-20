@@ -1,0 +1,40 @@
+
+#ignore SVN
+.svn
+
+#ignore thumbnails created by windows
+Thumbs.db
+
+#Ignore files build by Visual Studio
+*.obj
+*.pdb
+*.aps
+*.vcproj.*.user
+*.vspscc
+*.i
+*.icf
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.sbr
+[Dd]ebug*/
+
+[Rr]elease*/
+
+# Ignore files build by linux
+*.o
+
+# Ignore files build by xcode
+*.mode*v*
+*.pbxuser
+*.xcbkptlist
+*.xcscheme
+*.xcworkspacedata
+*.xcuserstate
+xcschememanagement.plist
+.DS_Store

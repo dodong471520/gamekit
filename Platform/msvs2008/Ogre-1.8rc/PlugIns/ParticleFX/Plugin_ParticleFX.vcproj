@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="Plugin_ParticleFX"
+	ProjectGUID="{4AE18726-59EC-455C-A82B-F77FD75B7B03}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Plugin_ParticleFX.dir\Debug"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="1"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;_USRDLL;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\Debug/Plugin_ParticleFXStatic.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;_USRDLL;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\Debug\Plugin_ParticleFXStatic.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Plugin_ParticleFX.dir\Release"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;_USRDLL;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\Release/Plugin_ParticleFXStatic.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;_USRDLL;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\Release\Plugin_ParticleFXStatic.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="Plugin_ParticleFX.dir\MinSizeRel"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;_USRDLL;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\MinSizeRel/Plugin_ParticleFXStatic.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;_USRDLL;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\MinSizeRel\Plugin_ParticleFXStatic.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="Plugin_ParticleFX.dir\RelWithDebInfo"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;_USRDLL;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\RelWithDebInfo/Plugin_ParticleFXStatic.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;UT_USE_ZLIB;AL_STATIC_LIB;ALC_STATIC_LIB;_USRDLL;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\dvx\gamekit\Engine;F:\dvx\gamekit\Platform\msvs2008\Engine;F:\dvx\gamekit\Ogre-1.8rc\OgreMain\include;F:\dvx\gamekit\Platform\msvs2008\include;F:\dvx\gamekit\Dependencies\Source\FreeType\include;F:\dvx\gamekit\Dependencies\Source\FreeImage;F:\dvx\gamekit\Dependencies\Source\ZZipLib;F:\dvx\gamekit\Dependencies\Source\FreeImage\ZLib;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="F:\dvx\gamekit\Ogre-1.8rc\Bin\lib\RelWithDebInfo\Plugin_ParticleFXStatic.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Ogre-1.8rc/PlugIns/ParticleFX/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\PlugIns\ParticleFX\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\CMakeLists.txt;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcproj.user.in;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcxproj.user.in;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\PlugIns\ParticleFX\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Ogre-1.8rc/PlugIns/ParticleFX/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\PlugIns\ParticleFX\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\CMakeLists.txt;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcproj.user.in;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcxproj.user.in;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\PlugIns\ParticleFX\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Ogre-1.8rc/PlugIns/ParticleFX/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\PlugIns\ParticleFX\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\CMakeLists.txt;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcproj.user.in;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcxproj.user.in;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\PlugIns\ParticleFX\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/dvx/gamekit/Ogre-1.8rc/PlugIns/ParticleFX/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.8\bin\cmake.exe&quot; -HF:/dvx/gamekit -BF:/dvx/gamekit/Platform/msvs2008 --check-stamp-file F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\PlugIns\ParticleFX\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\CMakeLists.txt;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcproj.user.in;F:\dvx\gamekit\CMake\Templates\VisualStudioUserFile.vcxproj.user.in;F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\CMakeLists.txt;"
+					Outputs="F:\dvx\gamekit\Platform\msvs2008\Ogre-1.8rc\PlugIns\ParticleFX\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreAreaEmitter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreBoxEmitter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreColourFaderAffector2.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreColourFaderAffector.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreColourImageAffector.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreColourInterpolatorAffector.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreCylinderEmitter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreDeflectorPlaneAffector.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreDirectionRandomiserAffector.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreEllipsoidEmitter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreHollowEllipsoidEmitter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreLinearForceAffector.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreParticleFX.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreParticleFXPlugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgrePointEmitter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreRingEmitter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreRotationAffector.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\src\OgreScaleAffector.cpp">
+				<FileConfiguration
+					Name="Debug|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32" ExcludedFromBuild="true">
+					<Tool
+					Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Platform\msvs2008\Plugin_ParticleFX\compile_Plugin_ParticleFX_0.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="">
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreAreaEmitter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreBoxEmitterFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreBoxEmitter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreColourFaderAffector2.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreColourFaderAffectorFactory2.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreColourFaderAffectorFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreColourFaderAffector.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreColourImageAffectorFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreColourImageAffector.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreColourInterpolatorAffectorFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreColourInterpolatorAffector.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreCylinderEmitterFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreCylinderEmitter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreDeflectorPlaneAffectorFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreDeflectorPlaneAffector.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreDirectionRandomiserAffectorFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreDirectionRandomiserAffector.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreEllipsoidEmitterFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreEllipsoidEmitter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreHollowEllipsoidEmitterFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreHollowEllipsoidEmitter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreLinearForceAffectorFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreLinearForceAffector.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreParticleFXPlugin.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreParticleFXPrerequisites.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgrePointEmitterFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgrePointEmitter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreRingEmitterFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreRingEmitter.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreRotationAffectorFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreRotationAffector.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreScaleAffectorFactory.h">
+			</File>
+			<File
+				RelativePath="F:\dvx\gamekit\Ogre-1.8rc\PlugIns\ParticleFX\include\OgreScaleAffector.h">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
